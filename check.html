@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .slider-container {
+      width: 80%;
+      max-width: 600px;
+      overflow: hidden;
+      white-space: nowrap;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .card {
+      display: inline-block;
+      width: calc(100% / 3);
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-right: 10px;
+      padding: 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    /* Optional: Add a hover effect */
+    .card:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Animation for auto-sliding */
+    .slider-container:hover {
+      animation: slide 4s linear infinite;
+    }
+
+    @keyframes slide {
+      0%, 20% { transform: translateX(0); }
+      25%, 45% { transform: translateX(-100%); }
+      50%, 70% { transform: translateX(-200%); }
+      75%, 95% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="slider-container">
+  <div class="card">Card 1 Content</div>
+  <div class="card">Card 2 Content</div>
+  <div class="card">Card 3 Content</div>
+  <!-- Add more cards as needed -->
+  <div class="card">Card 56 Content</div>
+  <div class="card">Card 2 Content</div>
+  <div class="card">Card 3 Content</div>
+  <div class="card">Card 4wrContent</div>
+  <div class="card">Card 2 Content</div>
+  <div class="card">Card 3 Content</div>
+  <div class="card">Card rtfwContent</div>
+  <div class="card">Card 2 Content</div>
+  <div class="card">Card 3 Content</div>
+
+</div>
+
+</body>
+</html>
