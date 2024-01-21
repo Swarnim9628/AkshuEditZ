@@ -594,61 +594,32 @@ body{
     height: 50vh;
     background-color: grey;
   }
-  
-  @media screen and (max-width: 1200px) {
-    /* Styles for screens with a maximum width of 1200 pixels */
-    .navbar {
-        padding: 0 1.5rem;
+@media screen and (max-width: 1200px) {
+    .header{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
     }
-}
-
-@media screen and (max-width: 992px) {
-    /* Styles for screens with a maximum width of 992 pixels (e.g., tablets) */
-    .navbar {
-        padding: 0 1rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    /* Styles for screens with a maximum width of 768 pixels (e.g., mobile devices) */
-    .navbar {
-        padding: 0 0.5rem;
-    }
-
     .text-box {
-        top: 30%;
-        left: 5%;
+        top:20%;
+        left: 15%;
+        right: 10%;
     }
-
+    .paragraph{
+        text-align: center;
+    }
     .img-box {
-        top: 20%;
+        left: 50%;
+        top:70%;
+        transform: translateX(-50%);
+        transform: translateZ(50%);
     }
-
-    .imgge {
-        width: 50vh;
+    .about-page{
+        padding: 35% 10px 40% 10px;
+    }
+    .col-1-of-2 {
+        flex: 100%;
+    }
+    .prj{
+        margin: 15 rem;
     }
 }
 
-@media screen and (max-width: 576px) {
-    /* Styles for screens with a maximum width of 576 pixels (e.g., smaller mobile devices) */
-    body {
-        font-size: 14px;
-    }
-
-    .navbar {
-        padding: 0 0.5rem;
-    }
-
-    .text-box {
-        top: 25%;
-        left: 5%;
-    }
-
-    .img-box {
-        top: 15%;
-    }
-
-    .imgge {
-        width: 40vh;
-    }
-}
