@@ -286,13 +286,13 @@ body{
   background-image: url(img/Services/thumnail_designs.png);
 }
 .skill-6{
-  background-image: url();
+  background-image: url(img/Services/motion.png);
 }
 .skill-7{
-  background-image: url();
+  background-image: url(img/Services/banner.png);
 }
 .skill-8{
-  background-image: url();
+  background-image: url(img/Services/3d_design.png);
 }
 .pricing{
   padding: 5rem;
@@ -594,73 +594,32 @@ body{
     height: 50vh;
     background-color: grey;
   }
-  @media screen and (max-width: 1200px) {
-    .header {
+@media screen and (max-width: 1200px) {
+    .header{
         clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
     }
     .text-box {
-        top: 20%;
+        top:20%;
         left: 15%;
         right: 10%;
     }
-    .paragraph {
+    .paragraph{
         text-align: center;
     }
     .img-box {
         left: 50%;
-        top: 70%;
+        top:70%;
         transform: translateX(-50%);
         transform: translateZ(50%);
     }
-    .about-page {
+    .about-page{
         padding: 35% 10px 40% 10px;
     }
     .col-1-of-2 {
         flex: 100%;
     }
-    .prj {
-        margin: 15rem;
+    .prj{
+        margin: 15 rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .navbar {
-        padding: 0 1rem;
-    }
-
-    .text-box {
-        top: 30%;
-        left: 5%;
-    }
-
-    .img-box {
-        top: 20%;
-    }
-
-    .imgge {
-        width: 50vh;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    body {
-        font-size: 14px;
-    }
-
-    .navbar {
-        padding: 0 0.5rem;
-    }
-
-    .text-box {
-        top: 25%;
-        left: 5%;
-    }
-
-    .img-box {
-        top: 15%;
-    }
-
-    .imgge {
-        width: 40vh;
-    }
-}
