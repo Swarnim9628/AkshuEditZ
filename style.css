@@ -36,6 +36,9 @@ body{
     animation-timing-function: ease-out;
     margin: 1.2rem 2rem 1.2rem 2rem;
 }
+.navbar .ele:hover{
+  color: #a158ff;
+}
 
 .header {
     height: 100vh;
