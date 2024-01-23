@@ -302,8 +302,8 @@ body{
   height: auto;
 }
 .card-pricing{
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   background-image:url(img/pricing/basic\ package.png);
   background-size: cover;
 }
