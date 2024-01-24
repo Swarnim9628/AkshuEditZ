@@ -316,138 +316,112 @@ body{
 }
 .pricing{
   height: auto;
+  margin: 5rem;
 }
 .cards-pk{
   display: flex;
   flex-wrap: wrap;
-  margin: 10rem;
+  margin: 5rem;
 }
-.basic{
-  background-image:url(img/pricing/standard\ package.png);
-  background-size: cover;  
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.card {
-  overflow: visible;
-  
-  margin: 0 auto 0 auto;
-}
-
-
-.content {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 300ms;
-  box-shadow: 0px 0px 10px 1px #000000ee;
-  border-radius: 5px;
-}
-.back {
-  background-color: #151515;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.back {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
-.back::before {
-  position: absolute;
-  content: '';
-  display: block;
-  width: 160px;
-  height: 160%;
-  background:linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
-  animation: rotation_481 5000ms infinite linear;
-}
-
-.back-content {
-  position: absolute;
-  width: 99%;
-  height: 99%;
-  background-color: #151515;
-  border-radius: 5px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.basic-s{
-  width: 28%;
-  height: 65vh;
+.card_box {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  background-image: url(img/BG.png);
+  background-size: cover;
   position: relative;
-  margin-top: 50px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  cursor: pointer;
+  transition: all .3s;
 }
-.standard-s{
-  width: 28%;
-  height: 65vh;
-  position:relative;
-  margin-top: 50px;
+.premium-box{
+  width: 400px;
+  height: 550px;
 }
-.premium-s{
-  width: 33%;
-  height: 78vh;
-}
-.card:hover{
-  transform: scale(1.1);
-  transition: all .2s ease;  
+.card_box:hover {
+  transform: scale(0.9);
 }
 
-@keyframes rotation_481 {
-  0% {
-    transform: rotateZ(0deg);
-  }
-
-  0% {
-    transform: rotateZ(360deg);
-  }
+.card_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@keyframes floating {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(10px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+.card-head{
+  position: absolute;
+  width: 98px;
+  height: 150px;
+  left: 55%;
+  align-items: center;
+  justify-content: center;
 }
 
-.basic{
-  background-image:url(img/pricing/standard\ package.png);
+.card-head::before{
+  font-size: small;
+  position: absolute;
+  width: 150%;
+  border-radius: 5px;
+  height: 40px;
+  background-image: linear-gradient(45deg, #ff6547 0%,#ffb144  51%, #ff7053  100%);
+  transform: translateY(-10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
 }
-.standard{
-  background-image:url(img/pricing/standard\ package.png);
+.basic::before{
+  content: 'Basic pack';  
 }
-.premium{
-  background-image:url(img/pricing/standard\ package.png);
+.standard::before{
+  content: 'Standard pack';
 }
+.premium::before{
+  left: 55%;
+  content: 'Premium pack';
+}
+
+
+.card_box span::before {
+  content: 'Starter pack';
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+}
+
+.card_box span::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+}
+
   .feedback {
     display: grid;
     height: auto;
