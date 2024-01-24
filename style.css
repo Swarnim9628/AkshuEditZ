@@ -382,19 +382,18 @@ body{
   box-shadow: 0 5px 10px rgba(0,0,0,0.23);
 }
 .basic::before{
-  content: 'Basic pack';  
+  content: 'starter pack';  
 }
 .standard::before{
   content: 'Standard pack';
 }
 .premium::before{
   left: 55%;
-  content: 'Premium pack';
+  content: 'exclusive pack';
 }
 
 
 .card_box span::before {
-  content: 'Starter pack';
   position: absolute;
   width: 150%;
   height: 40px;
@@ -408,6 +407,15 @@ body{
   letter-spacing: 0.1em;
   text-transform: uppercase;
   box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+}
+.basic-box span::before {
+  content: 'Basic pack';
+}
+.premium-box span::before {
+  content: 'premium pack';
+}
+.standard-box span::before {
+  content: 'standard pack';
 }
 
 .card_box span::after {
