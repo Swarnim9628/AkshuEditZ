@@ -340,7 +340,10 @@ body{
   width: 400px;
   height: 550px;
 }
-.card_box:hover {
+.card_box:hover{
+  transform: scale(1.1);
+}
+.card_box:active{
   transform: scale(0.9);
 }
 
