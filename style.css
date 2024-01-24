@@ -329,7 +329,7 @@ body{
   width: 300px;
   height: 450px;
   border-radius: 20px;
-  background-image: url(img/BG.png);
+  background-image: url(img/pricing/BG.png);
   background-size: cover;
   position: relative;
   box-shadow: 0 25px 50px rgba(0,0,0,0.55);
