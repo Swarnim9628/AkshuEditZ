@@ -338,7 +338,6 @@ body{
   position: relative;
   background-image: url(img/pricing/BG.png);
   background-size: cover;
-
   width: 300px;
   height: 450px;
   border-radius: 20px;
@@ -356,6 +355,13 @@ body{
 }
 .border:active{
   transform: scale(0.9);
+}
+.content-basic{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  left:10%;
+  position: relative;
+  top:30%;
 }
 
 .card_box span {
@@ -443,6 +449,28 @@ body{
   box-shadow: 140px -140px #cc3f47;
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
 }
+.price-btn {
+  position: relative;
+  left:10%;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.price-btn:hover {
+  letter-spacing: 1px;
+  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
 
   .feedback {
     display: grid;
