@@ -343,7 +343,7 @@ body{
   height: 460px;
   border-radius: 20px;
   transition: all .3s;
-  margin: auto;
+  margin: 3rem auto 3rem auto;
 
 }
 
@@ -360,7 +360,7 @@ body{
 }
 .content-basic{
   width: 90%;
-  height: auto;
+  height: 90%;
   font-family: 'Montserrat', sans-serif;
   color: white;
   left:10%;
