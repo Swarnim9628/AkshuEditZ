@@ -408,7 +408,7 @@ body{
   content: 'starter pack';  
 }
 .standard::before{
-  content: 'Standard pack';
+  content: 'AFFILIATE PACK';
 }
 .premium::before{
   left: 55%;
