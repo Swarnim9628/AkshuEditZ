@@ -760,5 +760,29 @@ body{
   .prj{
       margin: 15 rem;
   }
+  .cards-pk {
+    margin: 2rem;
+  }
+
+  .border {
+    width: 100%;
+  }
+
+  .premium-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .card_box {
+    padding: 3rem 1rem 0.5rem 1rem;
+  }
+
+  .card-head {
+    left: 50%;
+  }
+
+  .price-btn {
+    padding: 8px 20px;
+  }
 }
 
