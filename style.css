@@ -324,27 +324,37 @@ body{
   margin: 5rem;
 }
 .card_box {
-  margin: auto;
+  border: 20px 20px #F09819;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.border{
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  position: relative;
+  background-image: url(img/pricing/BG.png);
+  background-size: cover;
+  outline-style: solid;
+  outline-color:#ffc62e;
   width: 300px;
   height: 450px;
   border-radius: 20px;
-  background-image: url(img/pricing/BG.png);
-  background-size: cover;
-  position: relative;
-  cursor: pointer;
+  border: 10px 10px #F09819;
   transition: all .3s;
+  margin: auto;
+
 }
+
 .premium-box{
   width: 400px;
   height: 550px;
 }
-.card_box:hover{
+.border:hover{
   transform: scale(1.1);
-  box-shadow: 2px 4px 4px 2px #F09819;
-
 }
-.card_box:active{
+.border:active{
   transform: scale(0.9);
 }
 
