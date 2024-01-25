@@ -176,6 +176,7 @@ body{
 }
 
 .about-page {
+  height: auto;
     padding: 5%;
 }
 .about-head{
