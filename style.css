@@ -317,7 +317,7 @@ body{
 }
 .pricing{
   height: auto;
-  margin: 5rem;
+  margin: auto;
 }
 .cards-pk{
   display: flex;
@@ -327,6 +327,7 @@ body{
 .card_box {
   border: 20px 20px #F09819;
   width: 100%;
+  padding: 6rem 2rem 1rem 2rem;
   height: 100%;
   border-radius: 20px;
   outline-style: solid;
@@ -363,9 +364,7 @@ body{
   height: 90%;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  left:10%;
   position: relative;
-  top:30%;
 }
 
 .card_box span {
@@ -455,7 +454,6 @@ body{
 }
 .price-btn {
   position: relative;
-  left:10%;
   padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
