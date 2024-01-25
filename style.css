@@ -353,12 +353,13 @@ body{
 .border:hover{
   transform: scale(1.1);
   box-shadow: 0px 0px 30px 6px rgba(255, 145, 0, 0.3);
-
 }
 .border:active{
   transform: scale(0.9);
 }
 .content-basic{
+  width: 90%;
+  height: auto;
   font-family: 'Montserrat', sans-serif;
   color: white;
   left:10%;
