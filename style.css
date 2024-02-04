@@ -755,7 +755,74 @@ body{
       background-position: center;
   }
 }
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
+  .text-box{
+    top:30%;
+  }
+  .heading-primary-main{
+    font-size: 50px;
+  }
+  .imgge{
+    width: 60vh;
+  }
+  .img-box {
+    left: 50%;
+    top:60%;
+    transform: translateX(-50%);
+    transform: translateZ(50%);
+}
+  .heading-primary-sub{
+    font-size: 10px;
+  }
+  .btn-white{
+    font-size: 12px;
+  }
+  .about-head{
+    font-size: 2rem;
+  }
+  .paragraph{
+    font-size: 14px;
+  }
+  .composition .composition_photo{
+    width: 20vh;
+    border-radius: 1px;
+
+  }
+  .composition .composition_photo--p1{
+    left: 0;
+    top: 2rem;
+  }
+  .composition .composition_photo--p2{
+      right: 0;
+      top: 2rem;
+  }
+  .composition .composition_photo--p3{
+      left: 20%;
+      top: 4rem;
+  }
+  .composition .composition_photo:hover{
+    outline: 0.1rem solid rgb(102, 31, 235);
+  }
+  .prj{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+  .package {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+
+  }
+  .package2 {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+  background-position: center;
+}
+}
+  @media only screen and (max-width: 800px) {
     .text-box{
       top:30%;
     }
@@ -763,7 +830,7 @@ body{
       font-size: 50px;
     }
     .imgge{
-      width: 0vh;
+      width: 45vh;
     }
     .img-box {
       left: 50%;
