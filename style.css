@@ -696,20 +696,14 @@ body{
   }
   @media only screen and (max-width: 1200px) {
     .text-box{
-      top:30%;
+      top:35%;
     }
     .heading-primary-main{
       font-size: 50px;
     }
     .imgge{
-      width: 45vh;
+      width: 0vh;
     }
-    .img-box {
-      left: 50%;
-      top:60%;
-      transform: translateX(-50%);
-      transform: translateZ(50%);
-  }
     .heading-primary-sub{
       font-size: 10px;
     }
