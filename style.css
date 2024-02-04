@@ -744,7 +744,7 @@ body{
     .package {
       width: 200px;
       height: 250px;
-      margin: auto;
+      margin: 2rem;
       margin-bottom: 1.5rem;
 
     }
