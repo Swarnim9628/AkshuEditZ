@@ -763,7 +763,7 @@ body{
     font-size: 50px;
   }
   .imgge{
-    width: 60vh;
+    width: 0vh;
   }
   .img-box {
     left: 50%;
@@ -784,7 +784,7 @@ body{
     font-size: 14px;
   }
   .composition .composition_photo{
-    width: 20vh;
+    width: 40vh;
     border-radius: 1px;
 
   }
