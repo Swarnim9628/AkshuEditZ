@@ -754,6 +754,9 @@ body{
       background-size: cover;
       background-position: center;
   }
+  .skill-8{
+    background-image: url(img/Services/phn_3d_design.png);
+  }
 }
 @media only screen and (max-width: 1000px) {
   .text-box{
