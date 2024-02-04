@@ -14,48 +14,61 @@ body{
     
 }
 .navbar {
-  padding: 15px;
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  z-index: 1000;
-  background-color:rgb(7, 5, 15);
-  color: white;
-}
+      padding: 15px;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      z-index: 1000;
+      background-color: rgb(7, 5, 15);
+      color: white;
+    }
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-}
-.navbar-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
 
-.navbar-nav .nav-link {
-  margin: 0 50px;
-  position: relative;
-  color: rgb(255, 255, 255) !important;
-  font-family: 'Serif', sans-serif !important;
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
 
-}
-.container-flex {
-  flex: 1;
-}
-.navbar-nav .nav-link:hover{
-  color: #a158ff !important;
-}
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
+    .navbar-nav .nav-link {
+      margin: 0 50px;
+      position: relative;
+      color: rgb(255, 255, 255) !important;
+      font-family: 'Serif', sans-serif !important;
+    }
 
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
-}
+    .container-flex {
+      flex: 1;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #a158ff !important;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+      .navbar-nav {
+        flex-direction: column;
+      }
+      .navbar-nav .nav-link {
+        margin: 10px 0;
+      }
+    }
 
 .header {
     height: 100vh;
@@ -704,31 +717,3 @@ body{
     height: 50vh;
     background-color: grey;
   }
-@media screen and (max-width: 1200px) {
-    .header{
-        clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
-    }
-    .text-box {
-        top:20%;
-        left: 15%;
-        right: 10%;
-    }
-    .paragraph{
-        text-align: center;
-    }
-    .img-box {
-        left: 50%;
-        top:70%;
-        transform: translateX(-50%);
-        transform: translateZ(50%);
-    }
-    .about-page{
-        padding: 35% 10px 40% 10px;
-    }
-    .col-1-of-2 {
-        flex: 100%;
-    }
-    .prj{
-        margin: 15 rem;
-    }
-}
