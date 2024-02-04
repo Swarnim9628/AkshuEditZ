@@ -85,6 +85,7 @@ body{
     animation-duration: 2s;
     animation-timing-function: ease-out;
 }
+
 @keyframes moveInLeft{
     0%{
         opacity:0;
@@ -163,6 +164,10 @@ body{
     animation-name: moveInRight;
     animation-duration: 2s;
     backface-visibility: hidden;
+}
+@media only screen and (max-width: 480px) {
+  .img-box{
+    display: hidden;
 }
 
 .about-page {
@@ -694,6 +699,4 @@ body{
     height: 50vh;
     background-color: grey;
   }
-  @media only screen and (max-width: 480px) {
-    
-  }
+  
