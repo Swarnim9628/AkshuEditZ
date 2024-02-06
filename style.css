@@ -355,7 +355,29 @@ body{
   color: white;
   left:10%;
   position: relative;
-  top:30%;
+  top:20%;
+}
+.content-standard{
+  width: 90%;
+  height: 80%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  left:10%;
+  position: relative;
+  top: 20%;
+}
+.content-premium h5{
+  font-size: 14px;
+}
+.content-premium{
+  width: 90%;
+  height: 80%;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  left:12%;
+  position: relative;
+  top: 14%;
 }
 
 .card_box span {
