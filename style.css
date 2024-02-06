@@ -308,11 +308,13 @@ body{
 .pricing{
   height: auto;
   margin: auto;
+  margin-bottom: 5rem;
 }
 .cards-pk{
   display: flex;
   flex-wrap: wrap;
-  margin: 5rem;
+  margin: auto;
+  margin-bottom: 5rem;
 }
 .card_box {
   border: 20px 20px #F09819;
@@ -333,8 +335,7 @@ body{
   height: 460px;
   border-radius: 20px;
   transition: all .3s;
-  margin: 3rem auto 3rem auto;
-
+  margin: auto;
 }
 
 .premium-box{
