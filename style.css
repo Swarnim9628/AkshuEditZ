@@ -347,186 +347,40 @@ body{
   background-image: url(img/Services/3d_design.png);
 }
 .pricing{
+  color: white;
+  margin: 2rem;
   height: auto;
   margin: auto;
   margin-bottom: 5rem;
 }
-.cards-pk{
+.pricing-table {
+  margin: 2rem;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: auto;
-  margin-bottom: 5rem;
 }
-.card_box {
-  border: 20px 20px #F09819;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  outline-style: solid;
-  outline-color: #ff6547;
-}
-
-.border{
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  position: relative;
+.price-column {
   background-image: url(img/pricing/BG.png);
   background-size: cover;
-  width: 310px;
-  height: 460px;
-  border-radius: 20px;
-  transition: all .3s;
-  margin: auto;
-}
-
-.premium-box{
-  width: 400px;
-  height: 550px;
-}
-.border:hover{
-  transform: scale(1.1);
-  box-shadow: 0px 0px 30px 6px rgba(255, 145, 0, 0.3);
-}
-.border:active{
-  transform: scale(0.9);
-}
-.content-basic{
-  width: 90%;
-  height: 90%;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  left:10%;
-  position: relative;
-  top:20%;
-}
-.content-standard{
-  width: 90%;
-  height: 80%;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  left:10%;
-  position: relative;
-  top: 20%;
-}
-.content-premium h5{
-  font-size: 14px;
-}
-.content-premium{
-  width: 90%;
-  height: 80%;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  left:12%;
-  position: relative;
-  top: 14%;
-}
-
-.card_box span {
-  position: absolute;
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-  top: -10px;
-  left: -10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card-head{
-  position: absolute;
-  width: 98px;
-  height: 150px;
-  left: 55%;
-  align-items: center;
-  justify-content: center;
-}
-
-.card-head::before{
-  font-size: 12px;
-  position: absolute;
-  width: 150%;
+  border-color:#ffb144;
+  flex: 1;
+  max-width: 380px;
+  max-height: fit-content;
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
   border-radius: 5px;
-  height: 40px;
-  background-image: linear-gradient(45deg, #ff6547 0%,#ffb144  51%, #ff7053  100%);
-  transform: translateY(-10px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.basic::before{
-  content: 'starter pack';  
+.price-column h3{
+  text-align: center;
 }
-.standard::before{
-  content: 'AFFILIATE PACK';
+.value{
+  text-align: center;
 }
-.premium::before{
-  left: 55%;
-  content: 'exclusive pack';
-}
-
-
-.card_box span::before {
-  position: absolute;
-  width: 150%;
-  height: 40px;
-  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
-  transform: rotate(-45deg) translateY(-20px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
-}
-.basic-box span::before {
-  content: 'Basic pack';
-}
-.premium-box span::before {
-  content: 'premium pack';
-}
-.standard-box span::before {
-  content: 'standard pack';
-}
-
-.card_box span::after {
-  content: '';
-  position: absolute;
-  width: 10px;
-  bottom: 0;
-  left: 0;
-  height: 10px;
-  z-index: -1;
-  box-shadow: 140px -140px #cc3f47;
-  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
-}
-.price-btn {
-  position: relative;
-  left:10%;
-  padding: 10px 30px;
-  border-radius: 50px;
-  cursor: pointer;
-  border: 0;
-  background-color: white;
-  box-shadow: rgb(0 0 0 5%) 0 0 8px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-size: 15px;
-  transition: all 0.5s ease;
-}
-
-.price-btn:hover {
-  letter-spacing: 1px;
-  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+.btn-pk{
+  text-align: center;
 }
 
 
