@@ -377,7 +377,7 @@ transition: 0.3s all ease-in;
 }
 .price-column:hover{
   transform: scale(1.1);
-  box-shadow: 1rem 1rem 2rem 0 rgba(229, 255, 0, 0.2);
+  box-shadow: 1rem 1rem 2rem 0 rgba(255, 174, 0, 0.235);
 }
 .text{
 padding-left: 1rem;
