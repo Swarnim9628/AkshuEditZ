@@ -362,7 +362,8 @@ body{
 .price-column {
   background-image: url(img/pricing/BG.png);
   background-size: cover;
-  border-color:#ffb144;
+  outline-style: solid;
+  outline-color: #ff6547;
   flex: 1;
   max-width: 380px;
   max-height: fit-content;
@@ -374,6 +375,7 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .price-column h3{
+  color: rgb(248, 204, 8);
   text-align: center;
 }
 .value{
