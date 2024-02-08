@@ -360,6 +360,7 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 .price-column {
+cursor: pointer;
 background-image: url(img/pricing/BG.png);
 background-size: cover;
 outline-style: solid;
