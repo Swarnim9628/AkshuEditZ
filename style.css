@@ -241,7 +241,7 @@ color: rgb(102, 31, 235);
 .about-page {
   transform: translateX(-100px);
   transition: opacity 0.2s ease, transform 0.5s ease;
-  height: auto;
+  height: 100vh;
   padding: 5%;
 }
 .about-page.about-page--visible {
@@ -271,6 +271,7 @@ color: rgb(102, 31, 235);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 .col-1-of-2 {
