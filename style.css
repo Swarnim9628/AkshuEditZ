@@ -421,6 +421,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   margin: 5rem;
+  
 }
 
 
@@ -434,6 +435,7 @@ text-align: center;
   border-bottom-left-radius: 20px;
   word-wrap: break-word;
   margin: 10px; 
+  cursor: pointer;
 }
 
 .fd-card span {
