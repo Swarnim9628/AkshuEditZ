@@ -9,3 +9,20 @@ toggleBtn.onclick = function(){
     ? 'bi bi-x'
     : 'bi bi-list';
 }
+const container = document.querySelector('.cards-container');
+let currentIndex = 0;
+
+function nextCard() {
+  currentIndex = (currentIndex + 1) % container.children.length;
+  updateCarousel();
+}
+
+function prevCard() {
+  currentIndex = (currentIndex - 1 + container.children.length) % container.children.length;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const cardWidth = container.children[0].offsetWidth;
+  container.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+}
