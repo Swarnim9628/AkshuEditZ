@@ -108,3 +108,26 @@ function updateCarousel() {
     feedbackCards.forEach(card => {
         feedbackCardObserver.observe(card);
     });
+
+
+    function checkOtherCategory(select) {
+        var otherCategoryInput = document.getElementById("otherCategory");
+        if (select.value === "Other") {
+            otherCategoryInput.style.display = "block";
+            otherCategoryInput.setAttribute("required", "true"); // Mark as required if "Other" is selected
+        } else {
+            otherCategoryInput.style.display = "none";
+            otherCategoryInput.removeAttribute("required"); // Remove required attribute if "Other" is not selected
+        }
+    }
+
+    function checkOtherPackage(select) {
+        var otherPackageInput = document.getElementById("otherPackage");
+        if (select.value === "Other") {
+            otherPackageInput.style.display = "block";
+            otherPackageInput.setAttribute("required", "true"); // Mark as required if "Other" is selected
+        } else {
+            otherPackageInput.style.display = "none";
+            otherPackageInput.removeAttribute("required"); // Remove required attribute if "Other" is not selected
+        }
+    }
