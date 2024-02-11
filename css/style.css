@@ -573,48 +573,36 @@ text-align: center;
 }
 
 .footer {
-  cursor: pointer;
   background-color: #333;
   color: #fff;
-  padding: 30px 0;
-}
-
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer__logo img {
-  font-size: 26px;
-  font-weight: 500;
+  width: 150px; /* Adjust the width of the logo */
 }
 
 .footer__links ul,
 .footer__social ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 .footer__links ul li,
 .footer__social ul li {
-  display: inline-block;
-  margin-right: 15px;
+  display: inline;
+  margin: 0 10px;
 }
 
-.footer__links ul li a,
-.footer__social ul li a {
+.footer__links a,
+.footer__social a {
   color: #fff;
   text-decoration: none;
 }
 
 .footer__bottom {
-  text-align: center;
   margin-top: 20px;
-  font-size: 14px;
 }
 .jam--fiverr {
   display: inline-block;
@@ -630,14 +618,23 @@ text-align: center;
   mask-size: 100% 100%;
 }
 
-.design{
-  cursor: pointer;
-  text-align: Right;
+.design {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
 }
-.design a{
-text-decoration: none;
-color:white;
+
+.design a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+.design a:hover {
+  text-decoration: underline;
+}
+
 
 @media(max-width: 990px){
   
@@ -729,28 +726,28 @@ color:white;
     background-position: center;
 }
 .skill-1{
-  background-image: url(img/phn-services/Stream\ graphics\ smoll.png)
+  background-image: url(/img/phn-services/Stream\ graphics\ smoll.png)
   }
   .skill-2{
-  background-image: url(img/phn-services/mascot\ logos\ smoll.png);
+  background-image: url(/img/phn-services/mascot\ logos\ smoll.png);
   }
   .skill-3{
-  background-image: url(img/phn-services/intro\ and\ outro\ smoll.png);
+  background-image: url(/img/phn-services/intro\ and\ outro\ smoll.png);
   }
   .skill-4{
-  background-image: url(img/phn-services/sub\ badges\ emote\ smoll.png);
+  background-image: url(/img/phn-services/sub\ badges\ emote\ smoll.png);
   }
   .skill-5{
-  background-image: url(img/phn-services/Thumbnails\ Designs\ smoll.png);
+  background-image: url(/img/phn-services/Thumbnails\ Designs\ smoll.png);
   }
   .skill-6{
-  background-image: url(img/phn-services/motion\ graphics\ SMOLL.png);
+  background-image: url(/img/phn-services/motion\ graphics\ SMOLL.png);
   }
   .skill-7{
-  background-image: url(img/phn-services/banner\ designs\ SMOLL.png);
+  background-image: url(/img/phn-services/banner\ designs\ SMOLL.png);
   }
 .skill-8{
-  background-image: url(img/phn-services/phn_3d_design.png);
+  background-image: url(/img/phn-services/phn_3d_design.png);
 }
 }
 @media only screen and (max-width: 1024px) {

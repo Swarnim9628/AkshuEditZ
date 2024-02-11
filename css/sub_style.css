@@ -51,13 +51,74 @@ body {
 
 .package {
   margin: 3px;
-  width: calc(33.33% - 6px); /* Set width to 33.33% of the container minus margins */
+  width: calc(33.33% - 6px); 
   height: 200px;
   background-color: #fff;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer__logo img {
+  width: 150px;
+}
+
+.footer__links ul,
+.footer__social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links ul li,
+.footer__social ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer__links a,
+.footer__social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  margin-top: 20px;
+}
+.jam--fiverr {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2.5 -2 24 24'%3E%3Cg fill='%23000'%3E%3Cpath d='M16.25 16.25v-10h-10v-.625c0-1.034.841-1.875 1.875-1.875H10V0H8.125A5.632 5.632 0 0 0 2.5 5.625v.625H0V10h2.5v6.25H0V20h8.75v-3.75h-2.5V10h6.285v6.25H10V20h8.75v-3.75z'/%3E%3Ccircle cx='14.375' cy='1.875' r='1.875'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+.design {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.design a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.design a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 991px) {
   .package {
-    width: calc(50% - 6px); /* Set width to 50% of the container minus margins for smaller screens */
+    width: calc(50% - 6px);
   }
 }
