@@ -22,36 +22,52 @@ body {
   width: 200px;
   height: auto;
 }
-#header-img {
-  padding: 1rem 2rem 1rem;
-  min-height:  100vh;
-  max-width: 100%;
-  vertical-align: middle;
-  min-height: auto;
-}
 
-.heading{
-  text-align: center;
-  font-size: 3.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  color:  #fff;
-}
-.prj {
+header {
   display: flex;
-  flex-wrap: wrap;
-  padding: 3vw;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflowing content */
+  padding:2rem;
+
 }
 
-.package {
-  margin: 3px;
-  width: calc(33.33% - 6px); 
-  height: 200px;
-  background-color: #fff;
+#myVideo {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  min-width: 100%; /* Ensure video covers entire container */
+  min-height: 100%;
+  z-index: 10; /* Send the video to the back */
 }
+
+
+.content {
+    padding: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-package {
+    margin: 3px;
+    width: calc(33.33% - 6px); /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.video-package video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -114,20 +130,24 @@ body {
   text-decoration: underline;
 }
 @media (max-width: 991px) {
-  .heading{
-  font-size: 2.5rem;
-
-  }
-   .package {
-    width: calc(50% - 6px);
-    height: 130px;
-  }
+  header {
+    height: 30vh; /* Adjust the height as needed */
+    padding: 1rem; /* Adjust padding for smaller screens */
+    justify-content: flex-start;
+}
+.prj {
+  padding: 1rem; /* Adjust padding for smaller screens */
+}
+.video-package {
+  width: calc(50% - 6px); /* Adjust the width for smaller screens */
+  height: auto; /* Adjust the height for smaller screens */
+}
 }
 
-@media (max-width: 280px) {
-  .package {
-    width: calc(50% - 6px);
-    height: 70px;
-  }
+@media (max-width: 767px) {
+  .video-package {
+    width: 100%; /* Full width for phones */
+    height: auto; /* Allow height to adjust based on content */
+}
 }
 
