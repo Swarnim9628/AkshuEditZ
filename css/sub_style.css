@@ -80,7 +80,7 @@ header {
 }
 
 .image-package {
-  margin: 1px;
+  margin: 3px;
   width: calc(33.33% - 6px); /* Adjust the width as needed */
   height: 280px; /* Adjust the height as needed */
   overflow: hidden;
