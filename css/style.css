@@ -127,7 +127,7 @@ color: rgb(102, 31, 235);
   animation-timing-function: ease-out;
 }
 
-@keyframes moveInLeft{
+@keyframes moveInLeft{  
   0%{
       opacity:0;
       transform: translate(-100px);
@@ -228,7 +228,7 @@ color: rgb(102, 31, 235);
 }
 .img-box{
   position: absolute;
-  top:25%;
+  top:30%;
   left:65%;
 }
 .imgge{
@@ -999,5 +999,4 @@ background-position: center;
   width: 98px;
   height: 150px;
 }
-
 }
