@@ -232,7 +232,7 @@ color: rgb(102, 31, 235);
   left:65%;
 }
 .imgge{
-  width: 65vh;
+  width: 70vh;
   animation-name: moveInRight;
   animation-duration: 2s;
   backface-visibility: hidden;
