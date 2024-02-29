@@ -537,7 +537,8 @@ input[type="submit"]:hover {
   display: inline-block;
   width: 17em;
   height: 22.5em;
-  background: radial-gradient(circle, #ffff 0%, #b5b5b5 100%);
+  background: rgb(37,32,69);
+  background: linear-gradient(180deg, rgba(37,32,69,1) 67%, rgba(9,7,23,0.8576680672268908) 91%);
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -556,7 +557,7 @@ input[type="submit"]:hover {
 .fd-card span {
   margin-top: 10px;
   font-weight: bold;
-  color: #171717;
+  color: #fff;
   text-align: center;
   display: block;
   font-size: 1em;
@@ -619,7 +620,7 @@ input[type="submit"]:hover {
 
 .fd-card .info {
   font-weight: 400;
-  color: #171717;
+  color: #fff;
   text-align: center;
   font-size: 0.72em;
   margin: 10px;
