@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
+  cursor: url('/img/cursor/cursor.png'), auto !important;
   margin: 0;
   padding: 0;
   font-family: 'Space Grotesk', sans-serif;
@@ -25,10 +27,19 @@ body {
 
 header {
   display: flex;
-  height: 100vh; /* Adjust the height as needed */
-  overflow: hidden; /* Hide any overflowing content */
+  height: 100vh;
+  overflow: hidden;
   padding:2rem;
-
+}
+#myimage{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
 }
 
 #myVideo {
@@ -37,9 +48,9 @@ header {
   bottom: 0;
   width: 100%;
   height: auto;
-  min-width: 100%; /* Ensure video covers entire container */
+  min-width: 100%;
   min-height: 100%;
-  z-index: 10; /* Send the video to the back */
+  z-index: 10;
 }
 
 
@@ -57,8 +68,8 @@ header {
 
 .video-package {
     margin: 3px;
-    width: calc(33.33% - 6px); /* Adjust the width as needed */
-    height: 300px; /* Adjust the height as needed */
+    width: calc(33.33% - 6px);
+    height: 300px;
     overflow: hidden;
 }
 
@@ -81,8 +92,8 @@ header {
 
 .image-package {
   margin: 3px;
-  width: calc(33.33% - 6px); /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
+  width: calc(33.33% - 6px);
+  height: auto;
   overflow: hidden;
 }
 
@@ -156,31 +167,31 @@ header {
 }
 @media (max-width: 991px) {
   header {
-    height: 30vh; /* Adjust the height as needed */
-    padding: 1rem; /* Adjust padding for smaller screens */
+    height: 30vh; 
+    padding: 1rem;
     justify-content: flex-start;
 }
 .image-package {
-  width: calc(50% - 6px); /* Adjust the width for smaller screens */
-  height: auto; /* Adjust the height for smaller screens */
+  width: calc(50% - 6px);
+  height: auto;
 }
 .prj {
-  padding: 1rem; /* Adjust padding for smaller screens */
+  padding: 1rem;
 }
 .video-package {
-  width: calc(50% - 6px); /* Adjust the width for smaller screens */
-  height: auto; /* Adjust the height for smaller screens */
+  width: calc(50% - 6px);
+  height: auto;
 }
 }
 
 @media (max-width: 767px) {
   .video-package {
-    width: 100%; /* Full width for phones */
-    height: auto; /* Allow height to adjust based on content */
+    width: 100%;
+    height: auto;
 }
 .image-package {
-  width: 100%; /* Full width for phones */
-  height: auto; /* Allow height to adjust based on content */
+  width: 100%;
+  height: auto;
 }
 }
 
