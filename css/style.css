@@ -93,7 +93,7 @@ color: rgb(102, 31, 235);
   background-image: linear-gradient(to top,rgb(53, 22, 109), rgb(7, 5, 15));
   background-size: cover;
   background-position: top;   
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 50%);
 
 }
 .text-box{
